@@ -1,0 +1,383 @@
+{
+  "title": "The Big Three: BlackRock, Vanguard, State Street",
+  "source": "Based on the IBF article \"The Big Three: BlackRock, Vanguard, State Street\" (published Feb 27, 2026; updated Nov 14, 2026).",
+  "scenes": [
+    {
+      "id": "01-intro",
+      "chapter": "Introduction",
+      "lines": [
+        {
+          "text": "BlackRock. Vanguard. State Street."
+        },
+        {
+          "text": "In discussions of index investing and corporate governance, these three names are grouped together as \"the Big Three.\""
+        },
+        {
+          "text": "Over the next ten minutes we will separate what that label means from what it is assumed to mean, and build a checklist for comparing real funds."
+        }
+      ]
+    },
+    {
+      "id": "02-bottom-line",
+      "chapter": "The Bottom Line",
+      "lines": [
+        {
+          "text": "The bottom line, up front."
+        },
+        {
+          "text": "BlackRock, Vanguard and State Street are major index-fund sponsors with different businesses, ownership arrangements and products."
+        },
+        {
+          "text": "Their corporate asset totals, their fund holdings and their voting authority are different measures."
+        },
+        {
+          "text": "So compare actual funds, total costs, tax consequences and voting policies, rather than assuming that one sponsor's scale guarantees the best client outcome."
+        }
+      ]
+    },
+    {
+      "id": "03-what-it-means",
+      "chapter": "What \"Big Three\" Means",
+      "lines": [
+        {
+          "text": "The term \"Big Three\" identifies these three firms in discussions of index investing and corporate governance."
+        },
+        {
+          "text": "It is not a claim that they are the three largest organizations under every definition of global asset management."
+        },
+        {
+          "text": "Rankings can change depending on what the researcher counts: mutual funds, ETFs, separate accounts, or assets under administration."
+        }
+      ]
+    },
+    {
+      "id": "04-dated-numbers",
+      "chapter": "What \"Big Three\" Means",
+      "lines": [
+        {
+          "text": "For a dated example, BlackRock reported approximately $14.0 trillion in AUM at year-end 2025.",
+          "speech": "For a dated example, BlackRock reported approximately fourteen trillion dollars in assets under management at year-end 2025."
+        },
+        {
+          "text": "State Street reported approximately $5.7 trillion, a figure that includes assets for which it acts solely as marketing agent.",
+          "speech": "State Street reported approximately five point seven trillion dollars, a figure that includes assets for which it acts solely as marketing agent."
+        },
+        {
+          "text": "Both totals include activities far beyond the U.S. equity index funds that feature in most concentration discussions."
+        },
+        {
+          "text": "Adding corporate totals and dividing by U.S. ETF assets would not give a meaningful domestic sponsor share."
+        }
+      ]
+    },
+    {
+      "id": "05-definitions",
+      "chapter": "Four Different Things",
+      "lines": [
+        {
+          "text": "Fund shareholders have an economic interest in the fund's assets. The adviser does not simply own those client investments for its own corporate benefit."
+        },
+        {
+          "text": "Voting authority, beneficial ownership and corporate control also require separate definitions."
+        },
+        {
+          "text": "Treating those terms as synonyms can overstate what a fund sponsor's reported position really means."
+        }
+      ]
+    },
+    {
+      "id": "06-blackrock",
+      "chapter": "BlackRock",
+      "lines": [
+        {
+          "text": "First, BlackRock."
+        },
+        {
+          "text": "BlackRock's 2009 acquisition of Barclays Global Investors brought iShares into the organization."
+        },
+        {
+          "text": "Its business includes index and active investments, public and private markets, cash management, and technology services."
+        },
+        {
+          "text": "A company-wide AUM figure therefore does not measure the assets of iShares alone."
+        }
+      ]
+    },
+    {
+      "id": "07-overlap",
+      "chapter": "BlackRock",
+      "lines": [
+        {
+          "text": "Breadth gives advisors many exposures and tools, but several funds from one organization do not necessarily carry distinct economic risks."
+        },
+        {
+          "text": "A sector ETF and a broad-market ETF can overlap substantially, even when their names emphasize different mandates. Inspect holdings, benchmarks, legal structures and service arrangements."
+        },
+        {
+          "text": "Scale may support systems and distribution. It does not establish the spread, depth or tracking of a particular product, so examine the actual ETF and the proposed order."
+        }
+      ]
+    },
+    {
+      "id": "08-vanguard",
+      "chapter": "Vanguard",
+      "lines": [
+        {
+          "text": "Next, Vanguard."
+        },
+        {
+          "text": "Vanguard's U.S. investor-owned structure means its funds own Vanguard, and the funds are owned by their shareholders. That structure can support its low-cost approach."
+        },
+        {
+          "text": "But it does not prove that every available Vanguard class has the lowest fee, that competitors cannot offer a lower price, or that all possible service incentives are permanently resolved."
+        }
+      ]
+    },
+    {
+      "id": "09-share-class",
+      "chapter": "Vanguard",
+      "lines": [
+        {
+          "text": "Compare the class the client can actually buy."
+        },
+        {
+          "text": "A mutual-fund class, an ETF class and an institutional class can share one underlying portfolio while having different expenses, purchase requirements and trading mechanics."
+        },
+        {
+          "text": "A whole-portfolio asset total should not be described as the assets of a single ticker."
+        }
+      ]
+    },
+    {
+      "id": "10-tax-patent",
+      "chapter": "Vanguard",
+      "lines": [
+        {
+          "text": "Qualifying in-kind ETF redemptions can reduce realized gains at the fund level. That does not make every shareholder transaction tax-free."
+        },
+        {
+          "text": "Investors may still owe tax on distributions or on selling appreciated shares, and tax-advantaged and taxable accounts differ."
+        },
+        {
+          "text": "Vanguard's principal ETF-share-class patent expired in 2023. Patent expiration and regulatory permission are separate questions."
+        },
+        {
+          "text": "In November 2025 the SEC granted Dimensional conditional multi-class relief; other arrangements must meet their own legal requirements, and a shared portfolio does not guarantee a given after-tax result."
+        }
+      ]
+    },
+    {
+      "id": "11-state-street",
+      "chapter": "State Street",
+      "lines": [
+        {
+          "text": "State Street Investment Management, formerly State Street Global Advisors, offers both SPY and the lower-cost SPYM as distinct ways to obtain S&P 500 exposure."
+        },
+        {
+          "text": "A comparison of sponsors that includes only SPY can miss an important alternative within the same sponsor."
+        },
+        {
+          "text": "SPY's unit-investment-trust structure differs from open-end ETFs in dividend handling and portfolio-management flexibility. That matters, but it does not by itself guarantee a ranking of investor returns."
+        },
+        {
+          "text": "Tracking, expenses, distributions, taxes and execution costs all contribute to the realized result."
+        }
+      ]
+    },
+    {
+      "id": "12-disclosed-expenses",
+      "chapter": "State Street",
+      "lines": [
+        {
+          "text": "State Street's July 2026 comparison lists expenses of 0.0945% for SPY and 0.02% for SPYM, with market data displayed as of March 31, 2026.",
+          "speech": "State Street's July 2026 comparison lists expenses of zero point zero nine four five percent for SPY and zero point zero two percent for S P Y M, with market data displayed as of March 31, 2026."
+        },
+        {
+          "text": "Those are dated disclosure examples, not a current quotation and not an instruction to switch. Check the prospectus and live trading conditions before placing an actual order."
+        }
+      ]
+    },
+    {
+      "id": "13-expense-math",
+      "chapter": "The Cost Question",
+      "lines": [
+        {
+          "text": "Now, the cost question we are actually answering."
+        },
+        {
+          "text": "On an unchanged average balance of $500,000 for one year, a 0.0945% expense ratio represents $472.50. A 0.02% ratio represents $100.",
+          "speech": "On an unchanged average balance of five hundred thousand dollars for one year, a zero point zero nine four five percent expense ratio represents four hundred seventy two dollars and fifty cents. A zero point zero two percent ratio represents one hundred dollars."
+        },
+        {
+          "text": "The difference is $372.50.",
+          "speech": "The difference is three hundred seventy two dollars and fifty cents."
+        },
+        {
+          "text": "This is simple annual expense arithmetic under a constant-balance assumption, with no other costs or taxes. It does not forecast the ending values of two investments."
+        }
+      ]
+    },
+    {
+      "id": "14-cost-budget",
+      "chapter": "The Cost Question",
+      "lines": [
+        {
+          "text": "An illustrative new $100,000 purchase makes the execution issue visible.",
+          "speech": "An illustrative new one hundred thousand dollar purchase makes the execution issue visible."
+        },
+        {
+          "text": "Suppose Fund A has an annual expense of 0.02%, but a total entry-plus-exit trading cost of 0.10% of the position.",
+          "speech": "Suppose Fund A has an annual expense of zero point zero two percent, but a total entry plus exit trading cost of zero point one zero percent of the position."
+        },
+        {
+          "text": "Suppose Fund B has an expense of 0.0945%, with a round-trip trading cost of just 0.01%.",
+          "speech": "Suppose Fund B has an expense of zero point zero nine four five percent, with a round trip trading cost of just zero point zero one percent."
+        },
+        {
+          "text": "Assume a one-year holding period, identical gross exposure, zero gross return, no other costs or taxes, and calculate both costs on the original $100,000.",
+          "speech": "Assume a one year holding period, identical gross exposure, zero gross return, no other costs or taxes, and calculate both costs on the original one hundred thousand dollars."
+        },
+        {
+          "text": "Total modeled costs: $120 for Fund A, and $104.50 for Fund B.",
+          "speech": "Total modeled costs are one hundred twenty dollars for Fund A, and one hundred four dollars and fifty cents for Fund B."
+        },
+        {
+          "text": "A lower expense ratio need not produce the lower total one-year cost."
+        },
+        {
+          "text": "This is not a model of actual SPYM or SPY spreads or returns. Trade size, holding period, prices or taxes can change the comparison, and an existing taxable position must also include the tax cost of selling and the no-change alternative.",
+          "speech": "This is not a model of actual S P Y M or SPY spreads or returns. Trade size, holding period, prices or taxes can change the comparison, and an existing taxable position must also include the tax cost of selling, and the no change alternative."
+        }
+      ]
+    },
+    {
+      "id": "15-governance",
+      "chapter": "Governance",
+      "lines": [
+        {
+          "text": "Governance statistics need a defined population."
+        },
+        {
+          "text": "Academic research examines the Big Three's concentrated holdings and delegated voting. One influential 2017 paper used 2015 data to analyze the three firms as one hypothetical block."
+        },
+        {
+          "text": "A historical combined-block result is not evidence that one firm individually is now the largest shareholder in the same proportion of companies."
+        },
+        {
+          "text": "Voting statistics also depend on the sample, proposal type and weighting. A manager-average support rate differs from the share of all corporate votes cast."
+        },
+        {
+          "text": "Support for management resolutions and support for shareholder resolutions describe different sets of proposals. They are not complementary percentages that should sum to one hundred."
+        }
+      ]
+    },
+    {
+      "id": "16-voting-policy",
+      "chapter": "Governance",
+      "lines": [
+        {
+          "text": "Read each fund's current voting policy, its disclosures, and any eligible investor-choice arrangements."
+        },
+        {
+          "text": "A pass-through choice may apply only to particular funds or accounts. It is not every investor personally voting every underlying share, and it does not mean all three firms organize voting the same way."
+        }
+      ]
+    },
+    {
+      "id": "17-liquidity",
+      "chapter": "Liquidity & Competition",
+      "lines": [
+        {
+          "text": "Liquidity and competition remain product questions."
+        },
+        {
+          "text": "ETF liquidity depends on the underlying markets and on creation and redemption activity, as well as secondary-market volume."
+        },
+        {
+          "text": "In stress, a reported NAV can rely on less current prices than exchange trading, so a discount needs interpretation before it is called a loss against a price an investor could actually obtain."
+        },
+        {
+          "text": "Sponsor dependence is a fair due-diligence question. It does not justify assuming an unmodeled systemic collapse, or claiming that three sponsor names provide three independent custodial and trading infrastructures. Check actual service providers and contingency arrangements."
+        }
+      ]
+    },
+    {
+      "id": "18-sharpe",
+      "chapter": "Liquidity & Competition",
+      "lines": [
+        {
+          "text": "The active-versus-passive arithmetic also needs its assumptions stated."
+        },
+        {
+          "text": "In Sharpe's simplified framework, both groups face the same market, passive investors hold it at market-cap weights, and dollar-weighted active and passive returns are compared in a fixed market."
+        },
+        {
+          "text": "Under those assumptions gross returns coincide, and the net difference reflects active costs minus passive costs. Its sign depends on which costs are higher."
+        },
+        {
+          "text": "Changing index constituents, shares outstanding and real implementation trades complicate applying that identity to real funds. It is not a prediction that every active fund loses, or that a category label identifies a future winner."
+        }
+      ]
+    },
+    {
+      "id": "19-client",
+      "chapter": "The Client Conversation",
+      "lines": [
+        {
+          "text": "So how does this sound with a client?"
+        },
+        {
+          "text": "\"Are these index funds interchangeable?\""
+        },
+        {
+          "text": "\"They may target similar exposure, but we should compare the actual class, trading costs, taxes, account access and voting policy. Let's include keeping what you own before deciding whether a different fund would improve the result.\""
+        }
+      ]
+    },
+    {
+      "id": "20-takeaways",
+      "chapter": "Key Takeaways",
+      "lines": [
+        {
+          "text": "Six key takeaways."
+        },
+        {
+          "text": "One: keep company AUM, client holdings, voting authority and control separate."
+        },
+        {
+          "text": "Two: compare actual available products rather than selecting from corporate scale alone."
+        },
+        {
+          "text": "Three: ownership and tax structures can matter without guaranteeing the lowest client cost."
+        },
+        {
+          "text": "Four: include State Street's different S&P 500 products in a relevant comparison."
+        },
+        {
+          "text": "Five: match governance statistics to their dates, samples and weighting methods."
+        },
+        {
+          "text": "Six: evaluate total cost and feasible implementation before recommending a change."
+        }
+      ]
+    },
+    {
+      "id": "21-closing",
+      "chapter": "The Advisor's Edge",
+      "lines": [
+        {
+          "text": "The Certified Fund Specialist program develops fund-structure and portfolio-analysis skills."
+        },
+        {
+          "text": "Applying them means explaining which differences matter for an actual account, calculating their consequences, and preserving a no-change alternative."
+        },
+        {
+          "text": "A sponsor's reputation is context for due diligence, not a substitute for it."
+        },
+        {
+          "text": "This lesson is based on an IBF article. Figures are dated examples and hypothetical illustrations; verify them against primary sources."
+        }
+      ]
+    }
+  ]
+}

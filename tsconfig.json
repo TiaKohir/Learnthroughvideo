@@ -12,5 +12,5 @@
     "isolatedModules": true,
     "lib": ["DOM", "ES2022"]
   },
-  "include": ["src", "remotion.config.ts"]
+  "include": ["src", "lessons", "remotion.config.ts"]
 }

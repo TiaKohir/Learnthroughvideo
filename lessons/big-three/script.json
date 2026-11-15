@@ -1,10 +1,13 @@
 {
   "title": "The Big Three: BlackRock, Vanguard, State Street",
+  "shortTitle": "The Big Three",
+  "subtitle": "Mutual Funds & ETFs — a 10-minute animated lesson",
   "source": "Based on the IBF article \"The Big Three: BlackRock, Vanguard, State Street\" (published Feb 27, 2026; updated Nov 14, 2026).",
   "scenes": [
     {
       "id": "01-intro",
       "chapter": "Introduction",
+      "layout": "custom",
       "lines": [
         {
           "text": "BlackRock. Vanguard. State Street."
@@ -15,11 +18,13 @@
         {
           "text": "Over the next ten minutes we will separate what that label means from what it is assumed to mean, and build a checklist for comparing real funds."
         }
-      ]
+      ],
+      "data": {}
     },
     {
       "id": "02-bottom-line",
       "chapter": "The Bottom Line",
+      "layout": "custom",
       "lines": [
         {
           "text": "The bottom line, up front."
@@ -33,11 +38,13 @@
         {
           "text": "So compare actual funds, total costs, tax consequences and voting policies, rather than assuming that one sponsor's scale guarantees the best client outcome."
         }
-      ]
+      ],
+      "data": {}
     },
     {
       "id": "03-what-it-means",
       "chapter": "What \"Big Three\" Means",
+      "layout": "custom",
       "lines": [
         {
           "text": "The term \"Big Three\" identifies these three firms in discussions of index investing and corporate governance."
@@ -48,11 +55,13 @@
         {
           "text": "Rankings can change depending on what the researcher counts: mutual funds, ETFs, separate accounts, or assets under administration."
         }
-      ]
+      ],
+      "data": {}
     },
     {
       "id": "04-dated-numbers",
       "chapter": "What \"Big Three\" Means",
+      "layout": "custom",
       "lines": [
         {
           "text": "For a dated example, BlackRock reported approximately $14.0 trillion in AUM at year-end 2025.",
@@ -68,11 +77,13 @@
         {
           "text": "Adding corporate totals and dividing by U.S. ETF assets would not give a meaningful domestic sponsor share."
         }
-      ]
+      ],
+      "data": {}
     },
     {
       "id": "05-definitions",
       "chapter": "Four Different Things",
+      "layout": "custom",
       "lines": [
         {
           "text": "Fund shareholders have an economic interest in the fund's assets. The adviser does not simply own those client investments for its own corporate benefit."
@@ -83,11 +94,13 @@
         {
           "text": "Treating those terms as synonyms can overstate what a fund sponsor's reported position really means."
         }
-      ]
+      ],
+      "data": {}
     },
     {
       "id": "06-blackrock",
       "chapter": "BlackRock",
+      "layout": "custom",
       "lines": [
         {
           "text": "First, BlackRock."
@@ -101,11 +114,13 @@
         {
           "text": "A company-wide AUM figure therefore does not measure the assets of iShares alone."
         }
-      ]
+      ],
+      "data": {}
     },
     {
       "id": "07-overlap",
       "chapter": "BlackRock",
+      "layout": "custom",
       "lines": [
         {
           "text": "Breadth gives advisors many exposures and tools, but several funds from one organization do not necessarily carry distinct economic risks."
@@ -116,11 +131,13 @@
         {
           "text": "Scale may support systems and distribution. It does not establish the spread, depth or tracking of a particular product, so examine the actual ETF and the proposed order."
         }
-      ]
+      ],
+      "data": {}
     },
     {
       "id": "08-vanguard",
       "chapter": "Vanguard",
+      "layout": "custom",
       "lines": [
         {
           "text": "Next, Vanguard."
@@ -131,11 +148,13 @@
         {
           "text": "But it does not prove that every available Vanguard class has the lowest fee, that competitors cannot offer a lower price, or that all possible service incentives are permanently resolved."
         }
-      ]
+      ],
+      "data": {}
     },
     {
       "id": "09-share-class",
       "chapter": "Vanguard",
+      "layout": "custom",
       "lines": [
         {
           "text": "Compare the class the client can actually buy."
@@ -146,11 +165,13 @@
         {
           "text": "A whole-portfolio asset total should not be described as the assets of a single ticker."
         }
-      ]
+      ],
+      "data": {}
     },
     {
       "id": "10-tax-patent",
       "chapter": "Vanguard",
+      "layout": "custom",
       "lines": [
         {
           "text": "Qualifying in-kind ETF redemptions can reduce realized gains at the fund level. That does not make every shareholder transaction tax-free."
@@ -164,11 +185,13 @@
         {
           "text": "In November 2025 the SEC granted Dimensional conditional multi-class relief; other arrangements must meet their own legal requirements, and a shared portfolio does not guarantee a given after-tax result."
         }
-      ]
+      ],
+      "data": {}
     },
     {
       "id": "11-state-street",
       "chapter": "State Street",
+      "layout": "custom",
       "lines": [
         {
           "text": "State Street Investment Management, formerly State Street Global Advisors, offers both SPY and the lower-cost SPYM as distinct ways to obtain S&P 500 exposure."
@@ -182,11 +205,13 @@
         {
           "text": "Tracking, expenses, distributions, taxes and execution costs all contribute to the realized result."
         }
-      ]
+      ],
+      "data": {}
     },
     {
       "id": "12-disclosed-expenses",
       "chapter": "State Street",
+      "layout": "custom",
       "lines": [
         {
           "text": "State Street's July 2026 comparison lists expenses of 0.0945% for SPY and 0.02% for SPYM, with market data displayed as of March 31, 2026.",
@@ -195,11 +220,13 @@
         {
           "text": "Those are dated disclosure examples, not a current quotation and not an instruction to switch. Check the prospectus and live trading conditions before placing an actual order."
         }
-      ]
+      ],
+      "data": {}
     },
     {
       "id": "13-expense-math",
       "chapter": "The Cost Question",
+      "layout": "custom",
       "lines": [
         {
           "text": "Now, the cost question we are actually answering."
@@ -215,11 +242,13 @@
         {
           "text": "This is simple annual expense arithmetic under a constant-balance assumption, with no other costs or taxes. It does not forecast the ending values of two investments."
         }
-      ]
+      ],
+      "data": {}
     },
     {
       "id": "14-cost-budget",
       "chapter": "The Cost Question",
+      "layout": "custom",
       "lines": [
         {
           "text": "An illustrative new $100,000 purchase makes the execution issue visible.",
@@ -248,11 +277,13 @@
           "text": "This is not a model of actual SPYM or SPY spreads or returns. Trade size, holding period, prices or taxes can change the comparison, and an existing taxable position must also include the tax cost of selling and the no-change alternative.",
           "speech": "This is not a model of actual S P Y M or SPY spreads or returns. Trade size, holding period, prices or taxes can change the comparison, and an existing taxable position must also include the tax cost of selling, and the no change alternative."
         }
-      ]
+      ],
+      "data": {}
     },
     {
       "id": "15-governance",
       "chapter": "Governance",
+      "layout": "custom",
       "lines": [
         {
           "text": "Governance statistics need a defined population."
@@ -269,11 +300,13 @@
         {
           "text": "Support for management resolutions and support for shareholder resolutions describe different sets of proposals. They are not complementary percentages that should sum to one hundred."
         }
-      ]
+      ],
+      "data": {}
     },
     {
       "id": "16-voting-policy",
       "chapter": "Governance",
+      "layout": "custom",
       "lines": [
         {
           "text": "Read each fund's current voting policy, its disclosures, and any eligible investor-choice arrangements."
@@ -281,11 +314,13 @@
         {
           "text": "A pass-through choice may apply only to particular funds or accounts. It is not every investor personally voting every underlying share, and it does not mean all three firms organize voting the same way."
         }
-      ]
+      ],
+      "data": {}
     },
     {
       "id": "17-liquidity",
       "chapter": "Liquidity & Competition",
+      "layout": "custom",
       "lines": [
         {
           "text": "Liquidity and competition remain product questions."
@@ -299,11 +334,13 @@
         {
           "text": "Sponsor dependence is a fair due-diligence question. It does not justify assuming an unmodeled systemic collapse, or claiming that three sponsor names provide three independent custodial and trading infrastructures. Check actual service providers and contingency arrangements."
         }
-      ]
+      ],
+      "data": {}
     },
     {
       "id": "18-sharpe",
       "chapter": "Liquidity & Competition",
+      "layout": "custom",
       "lines": [
         {
           "text": "The active-versus-passive arithmetic also needs its assumptions stated."
@@ -317,11 +354,13 @@
         {
           "text": "Changing index constituents, shares outstanding and real implementation trades complicate applying that identity to real funds. It is not a prediction that every active fund loses, or that a category label identifies a future winner."
         }
-      ]
+      ],
+      "data": {}
     },
     {
       "id": "19-client",
       "chapter": "The Client Conversation",
+      "layout": "custom",
       "lines": [
         {
           "text": "So how does this sound with a client?"
@@ -332,11 +371,13 @@
         {
           "text": "\"They may target similar exposure, but we should compare the actual class, trading costs, taxes, account access and voting policy. Let's include keeping what you own before deciding whether a different fund would improve the result.\""
         }
-      ]
+      ],
+      "data": {}
     },
     {
       "id": "20-takeaways",
       "chapter": "Key Takeaways",
+      "layout": "custom",
       "lines": [
         {
           "text": "Six key takeaways."
@@ -359,11 +400,13 @@
         {
           "text": "Six: evaluate total cost and feasible implementation before recommending a change."
         }
-      ]
+      ],
+      "data": {}
     },
     {
       "id": "21-closing",
       "chapter": "The Advisor's Edge",
+      "layout": "custom",
       "lines": [
         {
           "text": "The Certified Fund Specialist program develops fund-structure and portfolio-analysis skills."
@@ -377,7 +420,8 @@
         {
           "text": "This lesson is based on an IBF article. Figures are dated examples and hypothetical illustrations; verify them against primary sources."
         }
-      ]
+      ],
+      "data": {}
     }
   ]
 }

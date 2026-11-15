@@ -20,5 +20,5 @@ const WithFonts: React.FC = () => {
 };
 
 export const Root: React.FC = () => (
-  <Composition id="BigThree" component={WithFonts} durationInFrames={totalFrames} fps={FPS} width={1920} height={1080} />
+  <Composition id="Lesson" component={WithFonts} durationInFrames={totalFrames} fps={FPS} width={1920} height={1080} />
 );

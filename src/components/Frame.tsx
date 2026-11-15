@@ -3,7 +3,7 @@ import { AbsoluteFill, interpolate, useCurrentFrame, useVideoConfig } from "remo
 import { C, FONT, LEAD } from "../theme";
 import type { ScenePlan } from "../timeline";
 import { SceneContext, Appear } from "./core";
-import { plan, totalFrames, chapters } from "../timeline";
+import { plan, totalFrames, chapters, headerTitle } from "../timeline";
 
 export const Background: React.FC = () => (
   <AbsoluteFill
@@ -42,7 +42,7 @@ export const SceneFrame: React.FC<{ scene: ScenePlan; children: React.ReactNode 
       <AbsoluteFill style={{ opacity: Math.min(fadeIn, fadeOut), fontFamily: FONT, color: C.text }}>
         {/* chapter chip */}
         <div style={{ position: "absolute", top: 28, right: 120, color: C.dim, fontSize: 22, fontWeight: 600, letterSpacing: 1 }}>
-          THE BIG THREE · {String(scene.index + 1).padStart(2, "0")}/{String(plan.length).padStart(2, "0")}
+          {headerTitle} · {String(scene.index + 1).padStart(2, "0")}/{String(plan.length).padStart(2, "0")}
         </div>
         {children}
         {/* subtitle */}

@@ -1,7 +1,7 @@
 import React from "react";
 import { interpolate, Easing } from "remotion";
-import { C, MONO, SPONSOR } from "../theme";
-import { Appear, Body, Bullets, Card, Chip, Col, Counter, Neq, Note, Row, Stamp, Title, Wordmark, useScene, useSpringAt } from "../components/core";
+import { C, MONO, SPONSOR } from "../../../src/theme";
+import { Appear, Body, Bullets, Card, Chip, Col, Counter, Neq, Note, Row, Stamp, Title, Wordmark, useScene, useSpringAt } from "../../../src/components/core";
 
 const S = SPONSOR;
 

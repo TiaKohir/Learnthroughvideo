@@ -1,10 +1,12 @@
 {
   "name": "learnthroughvideo",
   "version": "1.0.0",
-  "description": "",
+  "description": "Article → narrated, animated explainer video (Remotion + offline TTS + Claude planner)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lesson": "node --no-warnings scripts/lesson.mjs",
+    "studio": "node --no-warnings scripts/lesson.mjs preview",
+    "typecheck": "tsc -p tsconfig.json"
   },
   "repository": {
     "type": "git",
@@ -18,12 +20,14 @@
   },
   "homepage": "https://github.com/TiaKohir/Learnthroughvideo#readme",
   "dependencies": {
+    "@anthropic-ai/sdk": "^1.8.0",
     "@fontsource/inter": "^5.3.0",
     "@fontsource/jetbrains-mono": "^5.3.0",
     "@remotion/cli": "^4.0.543",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
-    "remotion": "^4.0.543"
+    "remotion": "^4.0.543",
+    "zod": "^4.6.7"
   },
   "devDependencies": {
     "@types/react": "^19.3.0",

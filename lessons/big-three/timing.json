@@ -5,7 +5,7 @@
   "scenes": [
     {
       "id": "01-intro",
-      "audio": "audio/01-intro.m4a",
+      "audio": "lessons/big-three/audio/01-intro.m4a",
       "duration": 16.6,
       "lines": [
         {
@@ -24,7 +24,7 @@
     },
     {
       "id": "02-bottom-line",
-      "audio": "audio/02-bottom-line.m4a",
+      "audio": "lessons/big-three/audio/02-bottom-line.m4a",
       "duration": 24.2,
       "lines": [
         {
@@ -47,7 +47,7 @@
     },
     {
       "id": "03-what-it-means",
-      "audio": "audio/03-what-it-means.m4a",
+      "audio": "lessons/big-three/audio/03-what-it-means.m4a",
       "duration": 19.6,
       "lines": [
         {
@@ -66,7 +66,7 @@
     },
     {
       "id": "04-dated-numbers",
-      "audio": "audio/04-dated-numbers.m4a",
+      "audio": "lessons/big-three/audio/04-dated-numbers.m4a",
       "duration": 27.5,
       "lines": [
         {
@@ -89,7 +89,7 @@
     },
     {
       "id": "05-definitions",
-      "audio": "audio/05-definitions.m4a",
+      "audio": "lessons/big-three/audio/05-definitions.m4a",
       "duration": 18.9,
       "lines": [
         {
@@ -108,7 +108,7 @@
     },
     {
       "id": "06-blackrock",
-      "audio": "audio/06-blackrock.m4a",
+      "audio": "lessons/big-three/audio/06-blackrock.m4a",
       "duration": 19.9,
       "lines": [
         {
@@ -131,7 +131,7 @@
     },
     {
       "id": "07-overlap",
-      "audio": "audio/07-overlap.m4a",
+      "audio": "lessons/big-three/audio/07-overlap.m4a",
       "duration": 29.4,
       "lines": [
         {
@@ -150,7 +150,7 @@
     },
     {
       "id": "08-vanguard",
-      "audio": "audio/08-vanguard.m4a",
+      "audio": "lessons/big-three/audio/08-vanguard.m4a",
       "duration": 20.5,
       "lines": [
         {
@@ -169,7 +169,7 @@
     },
     {
       "id": "09-share-class",
-      "audio": "audio/09-share-class.m4a",
+      "audio": "lessons/big-three/audio/09-share-class.m4a",
       "duration": 17.5,
       "lines": [
         {
@@ -188,7 +188,7 @@
     },
     {
       "id": "10-tax-patent",
-      "audio": "audio/10-tax-patent.m4a",
+      "audio": "lessons/big-three/audio/10-tax-patent.m4a",
       "duration": 36.1,
       "lines": [
         {
@@ -211,7 +211,7 @@
     },
     {
       "id": "11-state-street",
-      "audio": "audio/11-state-street.m4a",
+      "audio": "lessons/big-three/audio/11-state-street.m4a",
       "duration": 35.3,
       "lines": [
         {
@@ -234,7 +234,7 @@
     },
     {
       "id": "12-disclosed-expenses",
-      "audio": "audio/12-disclosed-expenses.m4a",
+      "audio": "lessons/big-three/audio/12-disclosed-expenses.m4a",
       "duration": 23.4,
       "lines": [
         {
@@ -249,7 +249,7 @@
     },
     {
       "id": "13-expense-math",
-      "audio": "audio/13-expense-math.m4a",
+      "audio": "lessons/big-three/audio/13-expense-math.m4a",
       "duration": 31.1,
       "lines": [
         {
@@ -272,7 +272,7 @@
     },
     {
       "id": "14-cost-budget",
-      "audio": "audio/14-cost-budget.m4a",
+      "audio": "lessons/big-three/audio/14-cost-budget.m4a",
       "duration": 57.3,
       "lines": [
         {
@@ -307,7 +307,7 @@
     },
     {
       "id": "15-governance",
-      "audio": "audio/15-governance.m4a",
+      "audio": "lessons/big-three/audio/15-governance.m4a",
       "duration": 40.6,
       "lines": [
         {
@@ -334,7 +334,7 @@
     },
     {
       "id": "16-voting-policy",
-      "audio": "audio/16-voting-policy.m4a",
+      "audio": "lessons/big-three/audio/16-voting-policy.m4a",
       "duration": 16.6,
       "lines": [
         {
@@ -349,7 +349,7 @@
     },
     {
       "id": "17-liquidity",
-      "audio": "audio/17-liquidity.m4a",
+      "audio": "lessons/big-three/audio/17-liquidity.m4a",
       "duration": 36.1,
       "lines": [
         {
@@ -372,7 +372,7 @@
     },
     {
       "id": "18-sharpe",
-      "audio": "audio/18-sharpe.m4a",
+      "audio": "lessons/big-three/audio/18-sharpe.m4a",
       "duration": 36.2,
       "lines": [
         {
@@ -395,7 +395,7 @@
     },
     {
       "id": "19-client",
-      "audio": "audio/19-client.m4a",
+      "audio": "lessons/big-three/audio/19-client.m4a",
       "duration": 17.7,
       "lines": [
         {
@@ -414,7 +414,7 @@
     },
     {
       "id": "20-takeaways",
-      "audio": "audio/20-takeaways.m4a",
+      "audio": "lessons/big-three/audio/20-takeaways.m4a",
       "duration": 33.7,
       "lines": [
         {
@@ -449,7 +449,7 @@
     },
     {
       "id": "21-closing",
-      "audio": "audio/21-closing.m4a",
+      "audio": "lessons/big-three/audio/21-closing.m4a",
       "duration": 27.1,
       "lines": [
         {

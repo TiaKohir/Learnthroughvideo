@@ -1,472 +1,474 @@
 {
   "fps": 30,
-  "tempo": 1.2,
-  "gap": 0.3,
+  "tempo": 1.15,
+  "gap": 0.35,
+  "engine": "kokoro",
+  "voice": "af_heart",
   "scenes": [
     {
       "id": "01-intro",
       "audio": "lessons/big-three/audio/01-intro.m4a",
-      "duration": 16.6,
+      "duration": 15.461,
       "lines": [
         {
           "start": 0,
-          "end": 3.174
+          "end": 1.985
         },
         {
-          "start": 3.474,
-          "end": 9.343
+          "start": 2.29,
+          "end": 8.022
         },
         {
-          "start": 9.643,
-          "end": 16.571
+          "start": 8.326,
+          "end": 15.45
         }
       ]
     },
     {
       "id": "02-bottom-line",
       "audio": "lessons/big-three/audio/02-bottom-line.m4a",
-      "duration": 24.2,
+      "duration": 22.452,
       "lines": [
         {
           "start": 0,
-          "end": 2.046
+          "end": 1.391
         },
         {
-          "start": 2.346,
-          "end": 9.351
+          "start": 1.696,
+          "end": 8.467
         },
         {
-          "start": 9.651,
-          "end": 14.493
+          "start": 8.771,
+          "end": 13.242
         },
         {
-          "start": 14.793,
-          "end": 24.146
+          "start": 13.546,
+          "end": 22.45
         }
       ]
     },
     {
       "id": "03-what-it-means",
       "audio": "lessons/big-three/audio/03-what-it-means.m4a",
-      "duration": 19.6,
+      "duration": 20.215,
       "lines": [
         {
           "start": 0,
-          "end": 5.347
+          "end": 5.732
         },
         {
-          "start": 5.647,
-          "end": 11.153
+          "start": 6.037,
+          "end": 12.103
         },
         {
-          "start": 11.453,
-          "end": 19.584
+          "start": 12.407,
+          "end": 20.198
         }
       ]
     },
     {
       "id": "04-dated-numbers",
       "audio": "lessons/big-three/audio/04-dated-numbers.m4a",
-      "duration": 27.5,
+      "duration": 29.919,
       "lines": [
         {
           "start": 0,
-          "end": 7.372
+          "end": 8.051
         },
         {
-          "start": 7.672,
-          "end": 14.951
+          "start": 8.356,
+          "end": 16.147
         },
         {
-          "start": 15.251,
-          "end": 21.461
+          "start": 16.451,
+          "end": 23.334
         },
         {
-          "start": 21.761,
-          "end": 27.418
+          "start": 23.638,
+          "end": 29.908
         }
       ]
     },
     {
       "id": "05-definitions",
       "audio": "lessons/big-three/audio/05-definitions.m4a",
-      "duration": 18.9,
+      "duration": 19.434,
       "lines": [
         {
           "start": 0,
-          "end": 7.929
+          "end": 8.088
         },
         {
-          "start": 8.229,
-          "end": 13.537
+          "start": 8.392,
+          "end": 13.587
         },
         {
-          "start": 13.837,
-          "end": 18.882
+          "start": 13.891,
+          "end": 19.419
         }
       ]
     },
     {
       "id": "06-blackrock",
       "audio": "lessons/big-three/audio/06-blackrock.m4a",
-      "duration": 19.9,
+      "duration": 19.167,
       "lines": [
         {
           "start": 0,
-          "end": 1.725
+          "end": 1.113
         },
         {
-          "start": 2.025,
-          "end": 7.612
+          "start": 1.417,
+          "end": 7.503
         },
         {
-          "start": 7.912,
-          "end": 15.098
+          "start": 7.807,
+          "end": 14.522
         },
         {
-          "start": 15.398,
-          "end": 19.876
+          "start": 14.826,
+          "end": 19.149
         }
       ]
     },
     {
       "id": "07-overlap",
       "audio": "lessons/big-three/audio/07-overlap.m4a",
-      "duration": 29.4,
+      "duration": 29.45,
       "lines": [
         {
           "start": 0,
-          "end": 7.684
+          "end": 8.032
         },
         {
-          "start": 7.984,
-          "end": 19.202
+          "start": 8.337,
+          "end": 19.375
         },
         {
-          "start": 19.502,
-          "end": 29.367
+          "start": 19.679,
+          "end": 29.437
         }
       ]
     },
     {
       "id": "08-vanguard",
       "audio": "lessons/big-three/audio/08-vanguard.m4a",
-      "duration": 20.5,
+      "duration": 20.38,
       "lines": [
         {
           "start": 0,
-          "end": 1.597
+          "end": 1.002
         },
         {
-          "start": 1.897,
-          "end": 10.623
+          "start": 1.306,
+          "end": 10.341
         },
         {
-          "start": 10.923,
-          "end": 20.408
+          "start": 10.645,
+          "end": 20.365
         }
       ]
     },
     {
       "id": "09-share-class",
       "audio": "lessons/big-three/audio/09-share-class.m4a",
-      "duration": 17.5,
+      "duration": 17.3,
       "lines": [
         {
           "start": 0,
-          "end": 2.599
+          "end": 2.115
         },
         {
-          "start": 2.899,
-          "end": 12.686
+          "start": 2.419,
+          "end": 12.344
         },
         {
-          "start": 12.986,
-          "end": 17.495
+          "start": 12.649,
+          "end": 17.286
         }
       ]
     },
     {
       "id": "10-tax-patent",
       "audio": "lessons/big-three/audio/10-tax-patent.m4a",
-      "duration": 36.1,
+      "duration": 37.606,
       "lines": [
         {
           "start": 0,
-          "end": 8.014
+          "end": 8.143
         },
         {
-          "start": 8.314,
-          "end": 15.256
+          "start": 8.448,
+          "end": 15.683
         },
         {
-          "start": 15.556,
-          "end": 23.937
+          "start": 15.988,
+          "end": 24.391
         },
         {
-          "start": 24.237,
-          "end": 36.006
+          "start": 24.696,
+          "end": 37.588
         }
       ]
     },
     {
       "id": "11-state-street",
       "audio": "lessons/big-three/audio/11-state-street.m4a",
-      "duration": 35.3,
+      "duration": 36.788,
       "lines": [
         {
           "start": 0,
-          "end": 10.702
+          "end": 11.223
         },
         {
-          "start": 11.002,
-          "end": 16.675
+          "start": 11.528,
+          "end": 17.501
         },
         {
-          "start": 16.975,
-          "end": 28.438
+          "start": 17.805,
+          "end": 30.569
         },
         {
-          "start": 28.738,
-          "end": 35.285
+          "start": 30.873,
+          "end": 36.772
         }
       ]
     },
     {
       "id": "12-disclosed-expenses",
       "audio": "lessons/big-three/audio/12-disclosed-expenses.m4a",
-      "duration": 23.4,
+      "duration": 24.65,
       "lines": [
         {
           "start": 0,
-          "end": 13.78
+          "end": 14.73
         },
         {
-          "start": 14.08,
-          "end": 23.388
+          "start": 15.034,
+          "end": 24.643
         }
       ]
     },
     {
       "id": "13-expense-math",
       "audio": "lessons/big-three/audio/13-expense-math.m4a",
-      "duration": 31.1,
+      "duration": 30.43,
       "lines": [
         {
           "start": 0,
-          "end": 3.137
+          "end": 2.356
         },
         {
-          "start": 3.437,
-          "end": 17.493
+          "start": 2.66,
+          "end": 17.52
         },
         {
-          "start": 17.793,
-          "end": 21.304
+          "start": 17.824,
+          "end": 20.885
         },
         {
-          "start": 21.604,
-          "end": 31.019
+          "start": 21.19,
+          "end": 30.409
         }
       ]
     },
     {
       "id": "14-cost-budget",
       "audio": "lessons/big-three/audio/14-cost-budget.m4a",
-      "duration": 57.3,
+      "duration": 59.898,
       "lines": [
         {
           "start": 0,
-          "end": 4.547
+          "end": 4.768
         },
         {
-          "start": 4.847,
-          "end": 13.18
+          "start": 5.072,
+          "end": 14.644
         },
         {
-          "start": 13.48,
-          "end": 21.146
+          "start": 14.949,
+          "end": 23.185
         },
         {
-          "start": 21.446,
-          "end": 31.66
+          "start": 23.49,
+          "end": 33.656
         },
         {
-          "start": 31.96,
-          "end": 38.151
+          "start": 33.96,
+          "end": 40.082
         },
         {
-          "start": 38.451,
-          "end": 42.415
+          "start": 40.386,
+          "end": 44.189
         },
         {
-          "start": 42.715,
-          "end": 57.25
+          "start": 44.493,
+          "end": 59.89
         }
       ]
     },
     {
       "id": "15-governance",
       "audio": "lessons/big-three/audio/15-governance.m4a",
-      "duration": 40.6,
+      "duration": 43.384,
       "lines": [
         {
           "start": 0,
-          "end": 2.906
+          "end": 2.727
         },
         {
-          "start": 3.206,
-          "end": 14.389
+          "start": 3.031,
+          "end": 15.962
         },
         {
-          "start": 14.689,
-          "end": 21.841
+          "start": 16.266,
+          "end": 24.372
         },
         {
-          "start": 22.141,
-          "end": 30.67
+          "start": 24.677,
+          "end": 33.266
         },
         {
-          "start": 30.97,
-          "end": 40.558
+          "start": 33.57,
+          "end": 43.365
         }
       ]
     },
     {
       "id": "16-voting-policy",
       "audio": "lessons/big-three/audio/16-voting-policy.m4a",
-      "duration": 16.6,
+      "duration": 16.719,
       "lines": [
         {
           "start": 0,
-          "end": 5.842
+          "end": 5.454
         },
         {
-          "start": 6.142,
-          "end": 16.583
+          "start": 5.758,
+          "end": 16.703
         }
       ]
     },
     {
       "id": "17-liquidity",
       "audio": "lessons/big-three/audio/17-liquidity.m4a",
-      "duration": 36.1,
+      "duration": 37.764,
       "lines": [
         {
           "start": 0,
-          "end": 3.106
+          "end": 2.838
         },
         {
-          "start": 3.406,
-          "end": 10.422
+          "start": 3.143,
+          "end": 10.582
         },
         {
-          "start": 10.722,
-          "end": 21.011
+          "start": 10.886,
+          "end": 22.054
         },
         {
-          "start": 21.311,
-          "end": 36.034
+          "start": 22.358,
+          "end": 37.755
         }
       ]
     },
     {
       "id": "18-sharpe",
       "audio": "lessons/big-three/audio/18-sharpe.m4a",
-      "duration": 36.2,
+      "duration": 36.598,
       "lines": [
         {
           "start": 0,
-          "end": 3.772
+          "end": 3.71
         },
         {
-          "start": 4.072,
-          "end": 14.36
+          "start": 4.015,
+          "end": 14.088
         },
         {
-          "start": 14.66,
-          "end": 23.327
+          "start": 14.392,
+          "end": 23.203
         },
         {
-          "start": 23.627,
-          "end": 36.152
+          "start": 23.508,
+          "end": 36.586
         }
       ]
     },
     {
       "id": "19-client",
       "audio": "lessons/big-three/audio/19-client.m4a",
-      "duration": 17.7,
+      "duration": 16.365,
       "lines": [
         {
           "start": 0,
-          "end": 2.167
+          "end": 1.614
         },
         {
-          "start": 2.467,
-          "end": 4.72
+          "start": 1.918,
+          "end": 3.885
         },
         {
-          "start": 5.02,
-          "end": 17.668
+          "start": 4.19,
+          "end": 16.358
         }
       ]
     },
     {
       "id": "20-takeaways",
       "audio": "lessons/big-three/audio/20-takeaways.m4a",
-      "duration": 33.7,
+      "duration": 30.539,
       "lines": [
         {
           "start": 0,
-          "end": 1.549
+          "end": 1.187
         },
         {
-          "start": 1.849,
-          "end": 7.358
+          "start": 1.491,
+          "end": 5.907
         },
         {
-          "start": 7.658,
-          "end": 12.544
+          "start": 6.211,
+          "end": 10.868
         },
         {
-          "start": 12.844,
-          "end": 17.906
+          "start": 11.172,
+          "end": 15.883
         },
         {
-          "start": 18.206,
-          "end": 23.397
+          "start": 16.188,
+          "end": 21.271
         },
         {
-          "start": 23.697,
-          "end": 28.366
+          "start": 21.576,
+          "end": 25.509
         },
         {
-          "start": 28.666,
-          "end": 33.611
+          "start": 25.813,
+          "end": 30.524
         }
       ]
     },
     {
       "id": "21-closing",
       "audio": "lessons/big-three/audio/21-closing.m4a",
-      "duration": 27.1,
+      "duration": 26.209,
       "lines": [
         {
           "start": 0,
-          "end": 5.199
+          "end": 4.971
         },
         {
-          "start": 5.499,
-          "end": 13.511
+          "start": 5.276,
+          "end": 13.012
         },
         {
-          "start": 13.811,
-          "end": 18.598
+          "start": 13.317,
+          "end": 17.583
         },
         {
-          "start": 18.898,
-          "end": 27.096
+          "start": 17.887,
+          "end": 26.198
         }
       ]
     }

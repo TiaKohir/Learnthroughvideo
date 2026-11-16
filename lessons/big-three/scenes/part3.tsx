@@ -1,6 +1,6 @@
 import React from "react";
 import { interpolate, Easing } from "remotion";
-import { C, MONO, SPONSOR } from "../../../src/theme";
+import { C, MONO, SPONSOR, INSET, SHADOW } from "../../../src/theme";
 import { Appear, Body, Bullets, Card, Chip, Col, Neq, Note, Row, Stamp, Title, Wordmark, useScene, useSpringAt } from "../../../src/components/core";
 
 const S = SPONSOR;
@@ -71,7 +71,7 @@ export const Governance: React.FC = () => {
                 ].map((b) => (
                   <div key={b.n} style={{ marginBottom: 18 }}>
                     <div style={{ fontSize: 24, marginBottom: 8 }}>{b.n}</div>
-                    <div style={{ height: 30, background: "rgba(255,255,255,0.06)", borderRadius: 8, overflow: "hidden", width: 640 }}>
+                    <div style={{ height: 30, background: C.track, boxShadow: INSET, borderRadius: 8, overflow: "hidden", width: 640 }}>
                       <div style={{ width: `${w(b.at, b.v) * 100}%`, height: "100%", background: b.c }} />
                     </div>
                   </div>
@@ -181,7 +181,7 @@ export const Liquidity: React.FC = () => {
                   <Row gap={8}><div style={{ width: 28, height: 4, background: C.blue }} /><span style={{ fontSize: 22 }}>Exchange price</span></Row>
                   <Row gap={8}><div style={{ width: 28, height: 4, background: C.muted, borderTop: `4px dashed ${C.muted}` }} /><span style={{ fontSize: 22 }}>Reported NAV (may use less current prices)</span></Row>
                 </Row>
-                <div style={{ position: "absolute", right: 30, top: 14 }}>
+                <div style={{ position: "absolute", right: 30, top: 64 }}>
                   <Stamp at={L(2) + 3.2} rotate={-3} style={{ fontSize: 22 }}>Interpret the discount</Stamp>
                 </div>
               </Card>
@@ -266,8 +266,10 @@ export const Client: React.FC = () => {
         <div style={{ color, fontSize: 22, fontWeight: 700, letterSpacing: 2, marginBottom: 8, textAlign: side }}>{who}</div>
         <div
           style={{
-            background: side === "left" ? C.surface2 : `${color}26`,
-            border: `1.5px solid ${side === "left" ? C.line : color}`,
+            background: C.surface,
+            boxShadow: SHADOW,
+            borderLeft: side === "left" ? `6px solid ${C.dim}` : "none",
+            borderRight: side === "right" ? `6px solid ${color}` : "none",
             borderRadius: side === "left" ? "6px 24px 24px 24px" : "24px 6px 24px 24px",
             padding: "24px 32px",
             fontSize: 32,

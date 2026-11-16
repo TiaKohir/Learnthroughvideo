@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 // Article → animated, narrated video. One CLI for every step.
 //
+//   npm run lesson -- setup-voice                download the offline neural voice (Kokoro) into models/kokoro
 //   npm run lesson -- new <slug>                 scaffold lessons/<slug>/article.md
 //   npm run lesson -- plan <slug> [--minutes 10] [--offline]   article.md → script.json (Claude, or heuristic with --offline)
 //   npm run lesson -- audio <slug>               script.json → narration audio + timing.json
@@ -34,6 +35,25 @@ const npx = (args, env) => run(process.platform === "win32" ? "npx.cmd" : "npx",
 const browserArgs = () => (existsSync(CHROME) ? [`--browser-executable=${CHROME}`] : []);
 
 const commands = {
+  "setup-voice"() {
+    // Kokoro-82M (ONNX, quantized) + voice packs ship inside two MIT-licensed npm packages, so the registry is
+    // the only network access needed. Python deps: pip install -r requirements.txt
+    const dir = join(ROOT, "models/kokoro");
+    const tmp = join(ROOT, ".tts-tmp/setup");
+    mkdirSync(join(dir, "voices"), { recursive: true });
+    mkdirSync(tmp, { recursive: true });
+    for (const pkg of ["expo-kokoro@1.1.9", "kokoro-local-runtime@0.1.0"]) {
+      console.log(`Fetching ${pkg} from npm…`);
+      npx(["npm", "pack", pkg, "--pack-destination", tmp, "--silent"]);
+    }
+    run("tar", ["-xzf", join(tmp, "expo-kokoro-1.1.9.tgz"), "-C", tmp, "package/build/kokoro-quantized.onnx", "--wildcards", "package/build/voices/*.bin"]);
+    run("tar", ["-xzf", join(tmp, "kokoro-local-runtime-0.1.0.tgz"), "-C", tmp, "--wildcards", "package/voices/*.bin"]);
+    run("sh", ["-c", `mv -f "${tmp}/package/build/kokoro-quantized.onnx" "${dir}/" && cp "${tmp}/package/build/voices/"*.bin "${dir}/voices/" && cp "${tmp}/package/voices/"*.bin "${dir}/voices/"`]);
+    run("python3", [join(ROOT, "scripts/tts/build_voices.py"), join(dir, "voices"), join(dir, "voices.npz")]);
+    run("sh", ["-c", `rm -rf "${tmp}"`]);
+    console.log(`\n✔ Kokoro ready in models/kokoro (voices: af_heart default; set TTS_VOICE to change).`);
+  },
+
   new() {
     const dir = lessonDir(slug);
     if (existsSync(dir)) die(`${dir} already exists`);
@@ -102,13 +122,14 @@ const commands = {
     const gen = JSON.parse(readFileSync(join(ROOT, "src/generated/lesson.json"), "utf8"));
     // one frame per scene near its end (all elements visible), up to n scenes evenly spaced
     const scenes = gen.lesson.scenes;
-    const step = Math.max(1, Math.floor(scenes.length / n));
+    const count = Math.min(n, scenes.length);
+    const wanted = new Set(Array.from({ length: count }, (_, i) => Math.round((i * (scenes.length - 1)) / Math.max(1, count - 1))));
     let cursor = 0;
     const picks = [];
     scenes.forEach((s, i) => {
       const t = gen.timing.scenes.find((x) => x.id === s.id);
       const frames = Math.round((0.6 + t.duration + 0.9) * 30);
-      if (i % step === 0 && picks.length < n) picks.push({ id: s.id, frame: cursor + Math.floor(frames * 0.92) });
+      if (wanted.has(i)) picks.push({ id: s.id, frame: cursor + Math.floor(frames * 0.92) });
       cursor += frames;
     });
     for (const p of picks) {
@@ -134,9 +155,9 @@ const commands = {
   },
 };
 
-if (!cmd || !commands[cmd] || (cmd !== "new" && !slug)) {
-  console.log(readFileSync(new URL(import.meta.url), "utf8").split("\n").slice(1, 12).join("\n").replace(/^\/\/ ?/gm, ""));
+if (!cmd || !commands[cmd] || (cmd !== "new" && cmd !== "setup-voice" && !slug)) {
+  console.log(readFileSync(new URL(import.meta.url), "utf8").split("\n").slice(1, 13).join("\n").replace(/^\/\/ ?/gm, ""));
   process.exit(cmd ? 1 : 0);
 }
-if (cmd !== "new" && !existsSync(lessonDir(slug))) die(`lessons/${slug} does not exist — run: npm run lesson -- new ${slug}`);
+if (cmd !== "new" && cmd !== "setup-voice" && !existsSync(lessonDir(slug))) die(`lessons/${slug} does not exist — run: npm run lesson -- new ${slug}`);
 await commands[cmd]();

@@ -1,6 +1,6 @@
 import React from "react";
 import { interpolate, Easing } from "remotion";
-import { C, MONO } from "../theme";
+import { C, MONO, SHADOW, INSET } from "../theme";
 import type { Scene, SceneData } from "../lesson/schema";
 import { Appear, Body, Bullets, Card, Check, Chip, Col, Counter, Cross, Neq, Note, Row, Title, useScene } from "../components/core";
 
@@ -259,7 +259,7 @@ const BarsLayout: React.FC<{ s: Scene }> = ({ s }) => {
               <Appear key={i} at={t[i] - 0.2} dir="left">
                 <Row gap={22} justify="flex-start">
                   <div style={{ width: 330, fontSize: 28, fontWeight: 700, textAlign: "right" }}>{b.label}</div>
-                  <div style={{ width: 1000, height: 60, background: "rgba(255,255,255,0.05)", borderRadius: 12, overflow: "hidden" }}>
+                  <div style={{ width: 1000, height: 60, background: C.track, boxShadow: INSET, borderRadius: 14, overflow: "hidden" }}>
                     <div style={{ width: w, height: "100%", background: `linear-gradient(90deg, ${ORDER[i % ORDER.length]}88, ${ORDER[i % ORDER.length]})` }} />
                   </div>
                   <div style={{ fontSize: 36, fontWeight: 900, fontFamily: MONO, minWidth: 200 }}>{b.display ?? b.value.toLocaleString("en-US")}</div>
@@ -335,7 +335,7 @@ const ChatLayout: React.FC<{ s: Scene }> = ({ s }) => {
                 <div style={{ display: "flex", justifyContent: right ? "flex-end" : "flex-start" }}>
                   <div style={{ maxWidth: 1150 }}>
                     <div style={{ color: col, fontSize: 22, fontWeight: 700, letterSpacing: 2, marginBottom: 8, textAlign: right ? "right" : "left", textTransform: "uppercase" }}>{m.who}</div>
-                    <div style={{ background: right ? `${C.teal}26` : "#1B2A47", border: `1.5px solid ${right ? C.teal : C.line}`, borderRadius: right ? "24px 6px 24px 24px" : "6px 24px 24px 24px", padding: "22px 30px", fontSize: 31, lineHeight: 1.35 }}>{m.text}</div>
+                    <div style={{ background: C.surface, boxShadow: SHADOW, borderLeft: right ? "none" : `6px solid ${C.dim}`, borderRight: right ? `6px solid ${C.teal}` : "none", borderRadius: right ? "24px 6px 24px 24px" : "6px 24px 24px 24px", padding: "22px 30px", fontSize: 31, lineHeight: 1.35 }}>{m.text}</div>
                   </div>
                 </div>
               </Appear>

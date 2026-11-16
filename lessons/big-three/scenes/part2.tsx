@@ -1,6 +1,6 @@
 import React from "react";
 import { interpolate, Easing } from "remotion";
-import { C, MONO, SPONSOR } from "../../../src/theme";
+import { C, MONO, SPONSOR, INSET } from "../../../src/theme";
 import { Appear, Body, Bullets, Card, Chip, Col, Counter, Neq, Note, Row, Stamp, Title, Wordmark, useScene, useSpringAt } from "../../../src/components/core";
 
 const S = SPONSOR;
@@ -322,7 +322,7 @@ export const ExpenseMath: React.FC = () => {
             <Appear key={r.er} at={r.at - 0.2} dir="left">
               <Row gap={22} justify="flex-start">
                 <div style={{ width: 170, fontFamily: MONO, fontSize: 36, fontWeight: 800, color: r.c }}>{r.er}</div>
-                <div style={{ width: 900, height: 64, background: "rgba(255,255,255,0.05)", borderRadius: 12, overflow: "hidden" }}>
+                <div style={{ width: 900, height: 64, background: C.track, boxShadow: INSET, borderRadius: 14, overflow: "hidden" }}>
                   <div style={{ width: r.w, height: "100%", background: `linear-gradient(90deg, ${r.c}88, ${r.c})` }} />
                 </div>
                 <div style={{ fontSize: 46, fontWeight: 900, minWidth: 260 }}>
@@ -393,7 +393,7 @@ export const CostBudget: React.FC = () => {
         </Appear>
         <Row gap={80} align="flex-end" style={{ marginTop: 30, height: 470 }}>
           {funds.map((f) => (
-            <Appear key={f.n} at={f.atE - 0.3} dir="up" style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 14 }}>
+            <Appear key={f.n} at={f.atE - 0.3} dir="up" style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 14, position: "relative", zIndex: 2 }}>
               <div style={{ height: 70, display: "flex", alignItems: "flex-end" }}>
                 <Appear at={f.atTotal} dir="pop">
                   <div style={{ fontSize: 50, fontWeight: 900, color: f.c, fontFamily: MONO }}>
@@ -402,7 +402,7 @@ export const CostBudget: React.FC = () => {
                 </Appear>
               </div>
               <div style={{ width: 300, display: "flex", flexDirection: "column-reverse", borderBottom: `3px solid ${C.line}` }}>
-                <Segment h={grow(f.atE, f.e)} full={f.e * scale} show={t > f.atE + 0.6} label={`expense $${f.e.toFixed(2).replace(/\.00$/, "")}`} style={{ background: f.c, borderRadius: "0 0 8px 8px", color: C.bg }} />
+                <Segment h={grow(f.atE, f.e)} full={f.e * scale} show={t > f.atE + 0.6} label={`expense $${f.e.toFixed(2).replace(/\.00$/, "")}`} style={{ background: f.c, borderRadius: "0 0 8px 8px", color: C.onAccent }} />
                 <Segment h={grow(f.atT, f.tc)} full={f.tc * scale} show={t > f.atT + 0.6} label={`trading $${f.tc.toFixed(2).replace(/\.00$/, "")}`} style={{ background: `${f.c}66`, border: `2px dashed ${f.c}`, borderRadius: "8px 8px 0 0" }} />
               </div>
               <div style={{ fontSize: 32, fontWeight: 800 }}>{f.n}</div>

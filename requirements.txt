@@ -1,0 +1,5 @@
+# Python side of the pipeline: neural narration (Kokoro-82M via ONNX Runtime, offline)
+kokoro-onnx>=0.6
+onnxruntime>=1.20
+soundfile>=0.12
+numpy>=1.26

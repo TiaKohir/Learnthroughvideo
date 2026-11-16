@@ -130,7 +130,7 @@ export const WhatItMeans: React.FC = () => {
             </Appear>
           </Col>
           <Appear at={L(2) + 0.1} style={{ flex: 1.1 }}>
-            <Card style={{ height: 520 }}>
+            <Card style={{ height: 570 }}>
               <Row gap={10} justify="flex-start" style={{ flexWrap: "wrap" }}>
                 {measures.map((m, i) => (
                   <Chip key={m} color={i === idx && t > L(2) + 0.6 ? C.teal : C.dim} style={{ fontSize: 21 }}>

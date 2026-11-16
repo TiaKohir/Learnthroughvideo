@@ -1,6 +1,6 @@
 import React, { createContext, useContext } from "react";
 import { interpolate, spring, useCurrentFrame, useVideoConfig, Easing } from "remotion";
-import { C, FONT, MONO } from "../theme";
+import { C, FONT, MONO, SHADOW, SHADOW_SM, INSET } from "../theme";
 import type { ScenePlan } from "../timeline";
 
 export type SceneCtx = {
@@ -95,11 +95,10 @@ export const Card: React.FC<{
   <div
     style={{
       background: C.surface,
-      border: `1px solid ${C.line}`,
-      borderTop: accent ? `5px solid ${accent}` : `1px solid ${C.line}`,
-      borderRadius: 20,
+      borderTop: accent ? `6px solid ${accent}` : "none",
+      borderRadius: 24,
       padding: pad,
-      boxShadow: "0 20px 50px rgba(0,0,0,0.35)",
+      boxShadow: SHADOW,
       color: C.text,
       ...style,
     }}
@@ -119,10 +118,10 @@ export const Chip: React.FC<{ color?: string; children: React.ReactNode; style?:
       display: "inline-flex",
       alignItems: "center",
       gap: 10,
-      padding: big ? "14px 24px" : "10px 18px",
+      padding: big ? "14px 26px" : "10px 20px",
       borderRadius: 999,
-      background: `${color}22`,
-      border: `1.5px solid ${color}88`,
+      background: C.surface,
+      boxShadow: SHADOW_SM,
       color: C.text,
       fontSize: big ? 30 : 24,
       fontWeight: 600,
@@ -130,6 +129,7 @@ export const Chip: React.FC<{ color?: string; children: React.ReactNode; style?:
       ...style,
     }}
   >
+    <span style={{ width: big ? 14 : 11, height: big ? 14 : 11, borderRadius: 99, background: color, flex: "none" }} />
     {children}
   </div>
 );
@@ -175,7 +175,7 @@ export const Stamp: React.FC<{ at: number; children: React.ReactNode; color?: st
         letterSpacing: 3,
         textTransform: "uppercase",
         fontFamily: FONT,
-        background: "rgba(11,18,32,0.75)",
+        background: "rgba(246,248,251,0.9)",
         display: "inline-block",
         ...style,
       }}
@@ -224,7 +224,7 @@ export const Bar: React.FC<{ at: number; width: number; height?: number; color: 
   const w = interpolate(t, [at, at + dur], [0, width], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
   return (
     <div style={{ display: "flex", alignItems: "center", gap: 18 }}>
-      <div style={{ width: w, height, borderRadius: 10, background: `linear-gradient(90deg, ${color}99, ${color})`, boxShadow: `0 0 24px ${color}55` }} />
+      <div style={{ width: w, height, borderRadius: 10, background: `linear-gradient(90deg, ${color}99, ${color})`, boxShadow: `4px 4px 10px rgba(163,177,198,0.45)` }} />
       {label !== undefined && <div style={{ fontSize: 30, fontWeight: 700, color: C.text }}>{label}</div>}
     </div>
   );
@@ -237,9 +237,10 @@ export const Wordmark: React.FC<{ name: string; color: string; size?: number; st
       alignItems: "center",
       gap: 14,
       padding: "14px 26px",
-      borderRadius: 16,
-      background: `${color}1a`,
-      border: `2px solid ${color}`,
+      borderRadius: 18,
+      background: C.surface,
+      boxShadow: SHADOW_SM,
+      borderBottom: `4px solid ${color}`,
       color: C.text,
       fontSize: size,
       fontWeight: 800,
